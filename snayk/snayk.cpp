@@ -106,7 +106,7 @@ private:
 	}
 
 	void draw(position &pos_yem, std::vector<position> &tail, char add_tail_dir=NULL) {
-		system("cls");														//sorry *nix users but it seemed so simple :(
+		system("cls"); //sorry *nix users but it seemed so simple :(
 		for (int row{ 0 }; row != row_x; row++) {
 			for (int column{ 0 }; column != column_y; column++) {
 				if (is_tail(tail, row, column)) {
